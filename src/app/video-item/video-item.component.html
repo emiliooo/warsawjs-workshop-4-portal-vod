@@ -1,0 +1,11 @@
+
+
+
+  <div id="inner">
+       <img [src]="video.image"/>
+       <div> <strong> Title:{{ video.title }}  </strong></div>
+       <div> Rating:{{ video.rating }}</div>
+       <button class="btn" (click)="onClick($event)">
+        Watch Video
+      </button>
+  </div>

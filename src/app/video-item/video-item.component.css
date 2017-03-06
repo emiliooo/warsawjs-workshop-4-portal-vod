@@ -1,0 +1,9 @@
+#inner{
+  border:6px solid blue;
+  width:250px;
+  display: inline-block;
+  margin: 0px 10px;
+}
+img{
+  width:250px;
+}

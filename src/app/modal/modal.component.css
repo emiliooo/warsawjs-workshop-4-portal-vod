@@ -1,0 +1,23 @@
+:host{
+  display: none;
+  width: 391px;
+  height: 298px;
+  margin-right: 0;
+  margin-left: +1%;
+  background-color: darkslategrey;
+
+}
+
+:host(.visible){
+  display:block;
+
+}
+
+/deep/ video{
+         width: 391px;
+         height: 298px;
+         margin-right: 0;
+         margin-left: +1%;
+         background-color: darkslategrey;
+
+       }
